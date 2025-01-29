@@ -1,15 +1,15 @@
-/* Reset default browser styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Body */
+
   body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Gradient background */
-    color: #333; /* Dark text color for readability */
+    background: linear-gradient(135deg, #ff7e5f, #feb47b); 
+    color: #333;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,15 +19,15 @@
     text-align: center;
   }
   
-  /* Header */
+
   h1 {
-    color: white; /* White text for contrast */
+    color: white; 
     margin-bottom: 30px;
     font-size: 2.5rem;
     font-weight: bold;
   }
   
-  /* Task input section */
+
   #taskInput {
     padding: 15px;
     width: 100%;
@@ -42,15 +42,15 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
-  /* When input is focused */
+  
   #taskInput:focus {
-    border-color: #ff7e5f; /* Change border to match gradient color */
-    box-shadow: 0 0 10px rgba(255, 126, 95, 0.5); /* Soft glow effect */
+    border-color: #ff7e5f;
+    box-shadow: 0 0 10px rgba(255, 126, 95, 0.5);
   }
   
-  /* Add task button */
+  
   button {
-    background-color: #ff7e5f; /* Soft coral background for buttons */
+    background-color: #ff7e5f; 
     color: white;
     border: none;
     padding: 12px 18px;
@@ -63,12 +63,12 @@
     max-width: 350px;
   }
   
-  /* Button hover effect */
+  
   button:hover {
-    background-color: #feb47b; /* Light orange color on hover */
+    background-color: #feb47b; 
   }
   
-  /* Task list section */
+  
   ul {
     list-style-type: none;
     padding: 0;
@@ -78,7 +78,7 @@
     transition: transform 0.3s ease;
   }
   
-  /* Task item */
+ 
   li {
     background-color: white;
     border-radius: 12px;
@@ -88,25 +88,25 @@
     justify-content: space-between;
     align-items: center;
     font-size: 18px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease, transform 0.2s ease;
   }
   
-  /* Hover effect for task items */
+ 
   li:hover {
-    background-color: #f7f7f7; /* Light gray on hover */
-    transform: scale(1.02); /* Slight scaling effect */
+    background-color: #f7f7f7; 
+    transform: scale(1.02); 
   }
   
-  /* Strike-through for completed tasks */
+ 
   li.done {
     text-decoration: line-through;
     color: #888;
   }
   
-  /* Task buttons */
+  
   button {
-    background-color: #f44336; /* Red for delete button */
+    background-color: #f44336; 
     margin-left: 10px;
     border-radius: 50%;
     padding: 8px 12px;
@@ -114,30 +114,30 @@
   }
   
   button.edit {
-    background-color: #ffa500; /* Orange for edit button */
+    background-color: #ffa500; 
   }
   
   button.done {
-    background-color: #4CAF50; /* Green for marking as done */
+    background-color: #4CAF50; 
   }
   
   button.done.done {
-    background-color: #2196F3; /* Blue color for undo task */
+    background-color: #2196F3;
   }
   
-  /* Button for marking as completed */
+ 
   button.done:hover, button.edit:hover, button:hover {
     background-color: #333;
     color: white;
   }
   
-  /* Icon buttons inside task */
+  
   button i {
-    font-size: 18px; /* Icon size */
+    font-size: 18px; 
     color: white;
   }
   
-  /* Adding some padding and center-aligning the task buttons */
+  
   li button {
     display: inline-flex;
     align-items: center;
